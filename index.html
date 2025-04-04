@@ -3,48 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Discord Bot</title>
+    <title>Your Discord Bot</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        <img src="assets/logo.png" alt="Bot Logo" class="bot-logo">
-        <h1>KRANTON PRIME</h1>
+        <h1>Your Discord Bot</h1>
+        <p>Advanced bot with security, scrims, and moderation features.</p>
+        <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot" class="invite-btn">
+            Add Bot
+        </a>
     </header>
-    
+
+    <!-- LIVE BOT STATUS -->
     <section id="status">
-        <h2>Live Bot Status</h2>
+        <h2>Bot Status</h2>
         <p id="bot-status">Checking...</p>
     </section>
-    
+
+    <!-- COMMANDS LIST -->
     <section id="commands">
         <h2>Commands List</h2>
         <ul>
-            <li><strong>$help</strong> - Shows the help menu</li>
-            <li><strong>$ban [user]</strong> - Bans a user</li>
-            <li><strong>$kick [user]</strong> - Kicks a user</li>
+            <li><b>$ban</b> - Ban a user</li>
+            <li><b>$kick</b> - Kick a user</li>
+            <li><b>$mute</b> - Mute a user</li>
+            <li><b>$an</b> - Antinuke</li>
         </ul>
     </section>
-    
-    <section id="owner">
-        <h2>Owner & Developer Info</h2>
-        <div class="owner-info">
-            <img src="assets/owner.jpg" alt="Owner Image" class="profile-pic">
-            <p><strong>Owner:</strong> YUVI</p>
+
+    <!-- OWNER & DEVELOPER INFO -->
+    <section id="owner-info">
+        <h2>Owner & Developer</h2>
+        <div class="owner">
+            <img src="assets/owner.jpg" alt="Owner">
+            <p><b>Owner:</b> Yᴜᴠɪ</p>
         </div>
-        <div class="dev-info">
-            <img src="assets/developer.jpg" alt="Developer Image" class="profile-pic">
-            <p><strong>Developer:</strong> STXRZ</p>
+        <div class="developer">
+            <img src="assets/dev.jpg" alt="Developer">
+            <p><b>Developer:</b> Sᴛxʀᴢ</p>
         </div>
     </section>
-    
+
+    <!-- FOOTER WITH SOCIAL MEDIA -->
     <footer>
         <p>Follow us on:</p>
-        <a href="https://github.com/Sagexdd">GitHub</a>
-        <a href="https://discord.gg/hjSV93j93j">Discord</a>
-        <a href="https://instagram.com/ifeel.yuvrxj">Instagram</a>
+        <div class="social-links">
+            <a href="https://github.com/Sagexdd" target="_blank">
+                <img src="assets/github.png" alt="GitHub">
+            </a>
+            <a href="https://discord.gg/hjSV93j93j" target="_blank">
+                <img src="assets/discord.png" alt="Discord">
+            </a>
+            <a href="https://instagram.com/ifeel.yuvrxj" target="_blank">
+                <img src="assets/instagram.png" alt="Instagram">
+            </a>
+        </div>
     </footer>
-    
+
     <script src="js/script.js"></script>
 </body>
 </html>
